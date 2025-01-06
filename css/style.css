@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+}
+
+header {
+    background-color: rgb(87, 171, 255);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1{
+    text-shadow: 8px 8px 5px rgba(81, 81, 81, 0.698);
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(254, 182, 115);
+    border: 1px solid rgb(80, 80, 80);
+    box-shadow: 10px 8px 5px rgba(81, 81, 81, 0.698);
+}
+
+nav button, form button, form input {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+form input {
+    padding: 0.5rem;
+    width: 200px;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.movie-card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    box-shadow: 10px 8px 5px rgba(81, 81, 81, 0.283);
+    border: 1.5px solid rgba(129, 129, 129, 0.63);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-card ul {
+    text-align: left;
+}
+
+.placeholder-icon {
+    font-size: 200px;
+    color: #ccc;
+    display: block;
+    margin: 30% auto;
+}
+
+.no-image {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#quiz-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 8px;
+}
+
+#question {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+aside button{
+    box-shadow: 5px 5px 5px rgba(81, 81, 81, 0.698);
+}
+
+#answer-buttons button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgb(255, 209, 122);
+    cursor: pointer;
+}
+
+#answer-buttons button:hover {
+    background-color: rgb(254, 186, 60);
+}
+
+#score {
+    font-weight: bold;
+}

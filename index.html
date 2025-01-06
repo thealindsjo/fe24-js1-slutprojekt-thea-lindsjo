@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="./js/main.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous"
+    />
+</head>
+<body>
+    <header>
+        <h1>My TMDB Film Website</h1>
+        <nav>
+            <button id="top-rated-btn">Top-Rated Movies</button>
+            <button id="popular-btn">Popular Movies</button>
+            <button id="quiz-button">Start Trivia Quiz</button>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search for a movie or person...">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section id="content"></section>
+        <section id="error-message" class="hidden"></section>
+        <aside id="quiz-container" class="hidden">
+            <h2 id="question">Question will appear here</h2>
+            <div id="answer-buttons"></div>
+            <p>Score: <span id="score">0</span></p>
+            <button id="restart-button">Restart</button>
+            <button id="hide-button">Hide Quiz</button>
+        </aside>
+    </main>         
+</body>
+</html>
