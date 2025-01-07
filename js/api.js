@@ -1,5 +1,5 @@
 /**
- * Contains functions to interact with The Movie Database (TMDb) API.
+ * Contains functions to interact with The Movie Database (TMDb) API, https://www.themoviedb.org/documentation/api.
  * 
  * Fetches data for top-rated movies, popular movies, search results, and popular 
  * TV shows.

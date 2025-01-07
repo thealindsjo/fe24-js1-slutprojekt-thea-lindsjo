@@ -64,7 +64,7 @@ document.getElementById('search-form').addEventListener('submit', async (e) => {
     }
 });
 
-// Animates the movies using anime.js
+// Animates the movies using anime.js, https://animejs.com/
 function animateMovies() {
     anime({
         targets: '#content div',
